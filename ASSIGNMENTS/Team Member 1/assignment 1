@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <script src="https://kit.fontawesome.com/f5f97ef504.js" crossorigin="anonymous"></script>
+    <style>
+        .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding:35px;
+}
+.space{
+    width:4px;
+    height:auto;
+    display: inline-block;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 30px;
+}
+#bar{
+    background-color:darkgray;
+    border-radius: 20px;
+    width:60%;
+    height:12px;
+    margin-left: 25px;
+    margin-top:-20px;
+}
+#bar>div{
+    background-color:skyblue;
+    width:80%;
+    height:12px;
+    border-radius: 10px;
+}
+#bar1{
+    background-color:darkgray;
+    border-radius: 20px;
+    width:60%;
+    height:12px;
+    margin-left: 25px;
+    margin-top:-20px;
+}
+#bar1>div{
+    background-color:hotpink;
+    width:80%;
+    height:12px;
+    border-radius: 10px;
+}
+#size{
+    font-size: larger;
+    font-size: 20px;
+}
+    </style>
+<body>
+    <div style="background-color: aliceblue;">
+  <div class="grid-container" style="padding: 25px;margin-left: 70px; margin-right:70px ; ">
+    
+    <div class="item1"><pre ><h2>Joyce Harrison</h2></pre></div>
+    <div class="item2"></div>
+    <div class="item3">
+    <div style="text-align:right">
+        <br>
+    <i class="fa-brands fa-facebook"></i>&nbsp;
+    <i class="fa-brands fa-github"></i>&nbsp;
+    <i class="fa-brands fa-twitter"></i>&nbsp;
+    <i class="fa-brands fa-instagram"></i>
+    </div></div>
+</div>
+    <div style="background-color: white;margin-left: 70px; margin-right:70px  ;">
+    <div class="grid-container" style="background-color:skyblue;border-top-left-radius:15px;border-top-right-radius:15px">
+        <div class="item1"><img src="https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359554_960_720.png" width="300px" height="300px"></div>
+        <div class="item2"><h1 style="color: white;font-size:50px;">Joyce Harrison</h1>
+        <p style="color:white;font-size: larger;">Graphic Designer & Web Developer</p>
+        <div>
+        <button style="border-radius:20px;background-color:aliceblue;border-color: aliceblue;padding:5px;width:105px;height: 40px;font-family: cursive;">Download CV</button>
+        <div class="space"></div>
+        <button style="border-radius:20px;background-color:hotpink;border-color:hotpink;color:white;padding: 5px;width:105px;height: 40px;font-family:cursive;">Hire me</button>
+    </div>
+        <div class="item3"></div>
+    </div>
+    </div>
+    <div class="grid">
+        <div>
+       <pre><h1>About me</h1></pre>
+       <pre style="font-size:larger;color: darkgrey; font-size:20px;font-family:cursive;">Hello! I'm Joyce Harrison. I am passionate about UI/UX design
+and Web Design. I am a skilled Front-end Developer and master of
+Graphic Design tools such as Photoshop and Sketch.
+       </pre>
+    </div>
+    <div>
+        <br>
+       <pre style="font-size:larger;color: darkgrey; font-size:20px;">Age            20
+
+Phone          6325429890
+
+Email          Joyce@company.com
+
+Address        140,City Center,New York,USA</pre>
+</div>
+</div><hr>
+    <div><pre>
+    <h1>  Professional Skills</h1>
+    <div class="grid" style="margin-top:-50px;"><div><p id="size">   HTML</p>
+
+<div id="bar"><div>
+</div>    
+    </div>
+<p id="size">   CSS</p>
+    <div id="bar"><div>
+        </div>    
+            </div>
+<p id="size">   JavaScript</p>
+
+<div id="bar"><div>
+                </div>    
+                    </div>
+
+</div>
+<div style="margin-left:10px;"><p id="size">  ABODE PHOTOSHOP</p>
+    <div id="bar1"><div>
+    </div>    
+        </div>
+<p id="size">  SKETCH</p>
+    <div id="bar1"><div>
+            </div>    
+                </div>
+<p id="size">  ADOBE XD</p>
+     <div id="bar1"><div>
+                    </div>    
+                        </div></div>
+</div>
+                </pre>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
